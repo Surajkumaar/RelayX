@@ -1,6 +1,6 @@
 # **RelayX**
 
-## 📌 Overview
+## Overview
 RelayX is a **lightweight multi-agent orchestrator** that handles multiple specialized tasks through a manager–sub-agent architecture.  
 The system consists of:
 - **Manager Agent**: Coordinates tasks and aggregates responses.
@@ -8,7 +8,7 @@ The system consists of:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 The manager agent receives a user request, determines which sub-agent(s) should handle it, and then orchestrates their responses into a unified output.
 
 ### **Sub-Agents**
@@ -18,7 +18,7 @@ The manager agent receives a user request, determines which sub-agent(s) should 
 
 ---
 
-## ✅ Key Features
+## Key Features
 - Modular **multi-agent architecture**.
 - Each sub-agent returns a **structured response** (e.g., joke, news summary, stock info).
 - Manager agent **combines and formats the final output**.
@@ -26,14 +26,14 @@ The manager agent receives a user request, determines which sub-agent(s) should 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Language**: Python  
 - **Tools**: APIs for search and stock data  
 - **Architecture**: Manager + Sub-agents
 
 ---
 
-## 📐 System Flow
+## System Flow
 1. User sends a request.
 2. Manager identifies relevant sub-agent(s).
 3. Sub-agent(s) process and return structured responses.
@@ -41,7 +41,7 @@ The manager agent receives a user request, determines which sub-agent(s) should 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-repo/relayx.git
